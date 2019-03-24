@@ -1,0 +1,36 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "*.pyc": true,
+        "**/**/**/**/*__pycache__": true,
+        "**/**/**/**/*.pyc": true
+      },
+    
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Droid Sans Mono'",
+    "python.venvPath": "~/env",
+    "workbench.colorTheme": "Dracula Soft",
+    "python.linting.pylintArgs": ["pylint_django"],
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "editor.renderWhitespace": "all", 
+    "editor.lineHeight": 22,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 800,
+    "search.location": "sidebar",
+    "explorer.autoReveal": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+}
